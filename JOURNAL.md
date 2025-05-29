@@ -18,3 +18,8 @@ Just setting up the Git Repo. Finding some cool badges for the README.md file. D
 Finding 3D Models for electrical box and other parts. It actually took some time to find a 3D model of the electrical Box I want to repurpose for the project. And because I am sometimes a lazy person [here its more about effectiveness; who needs to design a box when manufacturues profide the files :)] But from my experiente they like to hide them.
 
 I eventually found the .stp files I was searching for and imported them into Fusion 360. Looks great and will defenitly better visualize the Idea and is perfect for planning.
+
+<p float="left">
+  <img src="./journal%20files/2025-03-25/electrical_box_fusion.png" height="400" />
+  <img src="./journal%20files/2025-03-25/main_switch.png" height="400" />
+</p>
