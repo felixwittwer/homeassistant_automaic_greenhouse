@@ -38,3 +38,12 @@ I modeled some parts on my own like the ground plate on the inside of the box wh
   <img src="./journal%20files/2025-05-30/electrical_box_fusion.png" height="300" />
   <img src="./journal%20files/2025-05-30/core_electrical_box.png" height="300" />
 </p>
+
+### Session 3 (2h 30m)
+
+For the first sensor modul to design I decieded on the window contacts which are based on reed switches and magnets. These sensors will be designed for our greenhouse and the profiles it uses. To attatch my 3D printed parts to the aluminium profiles I thought of M3 screws and corresponding nuts. The case fo the reed sensor and magnet are designed in such a way that ti is possible to assemble the housing without screws just with the clips on the sides. 
+
+<p float="left">
+  <img src="./journal%20files/2025-05-30/window_contact_sensor_module.png" height="300" />
+  <img src="./journal%20files/2025-05-30/greenhouse_window.jpg" height="300" />
+</p>
