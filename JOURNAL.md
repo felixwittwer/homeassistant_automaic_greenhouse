@@ -20,8 +20,8 @@ Finding 3D Models for electrical box and other parts. It actually took some time
 I eventually found the .stp files I was searching for and imported them into Fusion 360. Looks great and will defenitly better visualize the Idea and is perfect for planning.
 
 <p float="left">
-  <img src="./journal%20files/2025-03-25/electrical_box_fusion.png" height="400" />
-  <img src="./journal%20files/2025-03-25/main_switch_fusion.png" height="400" />
+  <img src="./journal%20files/2025-05-29/electrical_box_fusion.png" height="400" />
+  <img src="./journal%20files/2025-05-29/main_switch_fusion.png" height="400" />
 </p>
 
 ## 30th May
@@ -29,3 +29,9 @@ I eventually found the .stp files I was searching for and imported them into Fus
 ### Session 1 (1h 30m)
 
 I just worte some imortant stuff to the README and build a logical project structure. The README also explains the concept of sensor modules. The concept of sensor moduels I introduced makes it easy to adapt and adjust the project to you individual needs. I added a License fole just to be clear on how the project can be used in the future.
+
+### Session 2 (2h)
+
+I modeled some parts on my own like the ground plate on the inside of the box where everything is mounted. Furthermore I added the main switch and DIN Rais inside the box with some terminals for the wires.
+
+<img src="./journal%20files/2025-05-30/electrical_box_fusion.png" height="400" />
