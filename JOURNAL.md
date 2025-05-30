@@ -5,6 +5,12 @@ description: "Automatic greenhouse with Homeassistant integration."
 created_at: "2024-03-25"
 ---
 
+# Journal
+
+Here you can see a documentation of the entire development process.
+
+**Total hours spent: 9h**
+
 ## 25th May (30m)
 
 Just setting up the Git Repo. Finding some cool badges for the README.md file. Doing some parst reasearch.
@@ -24,7 +30,7 @@ I eventually found the .stp files I was searching for and imported them into Fus
   <img src="./journal%20files/2025-05-29/main_switch_fusion.png" height="400" />
 </p>
 
-## 30th May
+## 30th May (7h 30m)
 
 ### Session 1 (1h 30m)
 
@@ -46,4 +52,13 @@ For the first sensor modul to design I decieded on the window contacts which are
 <p float="left">
   <img src="./journal%20files/2025-05-30/window_contact_sensor_module.png" height="300" />
   <img src="./journal%20files/2025-05-30/greenhouse_window.jpg" height="300" />
+</p>
+
+### Session 4 (1h)
+
+I am going to desing cases for all components so they can be mounted on the existing DIN rails. But to build a case around my parts I first need them to be in CAD. Because my relais module is out of production and the screwholes are custom for almost every board out there I quicly sketched up mine. Besides I modeled the bottom terminal row completly like it is right now in real life. Additionally I added a 5V and 9V rail mounted powersupply. The 5V one is for the ESP and relais board while the 9V one is for supplying the solanoids with power. The solanoids will be controlled by the relais board.
+
+<p float="left">
+  <img src="./journal%20files/2025-05-30/relais_board.png" height="300" />
+  <img src="./journal%20files/2025-05-30/core_electrical_box_2.png" height="300" />
 </p>
