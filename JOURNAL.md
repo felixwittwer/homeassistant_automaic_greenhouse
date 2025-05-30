@@ -28,10 +28,13 @@ I eventually found the .stp files I was searching for and imported them into Fus
 
 ### Session 1 (1h 30m)
 
-I just worte some imortant stuff to the README and build a logical project structure. The README also explains the concept of sensor modules. The concept of sensor moduels I introduced makes it easy to adapt and adjust the project to you individual needs. I added a License fole just to be clear on how the project can be used in the future.
+I just wrote some imortant stuff to the README and build a logical project structure. The README also explains the concept of sensor modules. The concept of sensor moduels I introduced makes it easy to adapt and adjust the project to you individual needs. I added a License fole just to be clear on how the project can be used in the future.
 
-### Session 2 (2h)
+### Session 2 (2h 30m)
 
-I modeled some parts on my own like the ground plate on the inside of the box where everything is mounted. Furthermore I added the main switch and DIN Rais inside the box with some terminals for the wires.
+I modeled some parts on my own like the ground plate on the inside of the box where everything is mounted. Furthermore I added the main switch and DIN Rais inside the box with some terminals for the wires. I also decided on writing sub README files for the individual folders bacause Github can't display lager 3D files. Now there will be great renders right in every directory. 
 
-<img src="./journal%20files/2025-05-30/electrical_box_fusion.png" height="400" />
+<p float="left">
+  <img src="./journal%20files/2025-05-30/electrical_box_fusion.png" height="300" />
+  <img src="./journal%20files/2025-05-30/core_electrical_box.png" height="300" />
+</p>

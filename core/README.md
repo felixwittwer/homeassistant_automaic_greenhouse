@@ -1,4 +1,4 @@
-# Core electrical box
+# core electrical box
 
 This direcrory contains all the important core stuff. The electrical box with all its components is not in a seperate folder everything else will be.
 
