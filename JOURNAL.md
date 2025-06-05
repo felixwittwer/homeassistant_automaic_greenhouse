@@ -62,3 +62,19 @@ I am going to desing cases for all components so they can be mounted on the exis
   <img src="./journal%20files/2025-05-30/relais_board.png" height="300" />
   <img src="./journal%20files/2025-05-30/core_electrical_box_2.png" height="300" />
 </p>
+
+## 5th June (2h)
+
+### Session 1 (1h 30m) during live call
+
+I thought my project could need some proper branding and logo to let the README look nice. As my go to software for vectorgraphics I used Inkscape to do the logo. As my Project is compatible with Home Assistant I started with importing the Homeassistant logo. For my logo I wanted something that is simple and matches the astetic of Home Assistant.
+
+<p float="left">
+  <img src="./journal%20files/2025-06-05/Inkscape_design_logo.png" height="300" /> &nbsp; &nbsp;&nbsp;&nbsp;
+  <img src="./journal%20files/2025-06-05/green-assistant-icon.svg" height="300" />
+  <img src="./journal%20files/2025-06-05/green-assistant-logo-white.svg" height="300" />
+</p>
+
+### Session 2 (30m) during live call
+
+I have added the Dallas temperature sensor module. Mostly it was code because the ground temperature sensors are already encapsulated. In my project two of those sensors will be used just for fun and because I have them laying arround. It defenitely will be interesting to see how the ground temperature is changing over the day.

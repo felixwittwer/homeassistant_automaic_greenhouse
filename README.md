@@ -2,6 +2,11 @@
 
 ![Static Badge](https://img.shields.io/badge/Hack_Club_HIGHWAY_TO_UNDERCITY-Hack_Club?style=flat&logo=hackclub&color=white)
 
+<br>
+<p align="center">
+    <img src="branding/green-assistant-logo-white.svg" style="width: 60%">
+</p>
+<br>
 
 # homeassistant_automaic_greenhouse
 A cool Project to make your greenhouse smart. What about automaic irrigation and collecting enviromental data right from your garden.

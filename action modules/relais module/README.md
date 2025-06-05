@@ -4,7 +4,7 @@
 
 | requires                                                            | mandatory for                 |
 | ------------------------------------------------------------------- | ----------------------------- |
-| none (control system aka ESP should be inplace but that is obvious) | irrigation sytsem (solanoids) |
+| none (control system aka ESP should be inplace but that is obvious) | irrigation system (solanoids) |
 
 <br>
 
