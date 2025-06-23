@@ -78,3 +78,13 @@ I thought my project could need some proper branding and logo to let the README 
 ### Session 2 (30m) during live call
 
 I have added the Dallas temperature sensor module. Mostly it was code because the ground temperature sensors are already encapsulated. In my project two of those sensors will be used just for fun and because I have them laying arround. It defenitely will be interesting to see how the ground temperature is changing over the day.
+
+## 23rd June (2h)
+
+### Session 1 (2h)
+
+After creating a cool loking logo and branding I decided to go on with designening the sensor and action modules. The next one in line was the light sensor module. Measuring light intensity might be really interesting to see in a greenhouse environment.
+
+<img src="./journal%20files/2025-06-23/lux_sensor_case.png" height="300" />
+
+I also decided on using a new standardised format for each sensor and action module. Each of them has it's own Readme with a seperate BOM this should improve the experience for users who want to build a simialr project but don't need as many sensors. 
