@@ -9,7 +9,7 @@ created_at: "2024-03-25"
 
 Here you can see a documentation of the entire development process.
 
-**Total hours spent: 9h**
+**Total hours spent: 14h**
 
 ## 25th May (30m)
 
@@ -47,7 +47,7 @@ I modeled some parts on my own like the ground plate on the inside of the box wh
 
 ### Session 3 (2h 30m)
 
-For the first sensor modul to design I decieded on the window contacts which are based on reed switches and magnets. These sensors will be designed for our greenhouse and the profiles it uses. To attatch my 3D printed parts to the aluminium profiles I thought of M3 screws and corresponding nuts. The case fo the reed sensor and magnet are designed in such a way that ti is possible to assemble the housing without screws just with the clips on the sides. 
+For the first sensor modul to design I decieded on the window contacts which are based on reed switches and magnets. These sensors will be designed for our greenhouse and the aluminium extrusions it uses. To attatch my 3D printed parts to the aluminium extrusions I thought of M3 screws and corresponding nuts. The case fo the reed sensor and magnet are designed in such a way that ti is possible to assemble the housing without screws just with the clips on the sides. 
 
 <p float="left">
   <img src="./journal%20files/2025-05-30/window_contact_sensor_module.png" height="300" />
@@ -79,7 +79,7 @@ I thought my project could need some proper branding and logo to let the README 
 
 I have added the Dallas temperature sensor module. Mostly it was code because the ground temperature sensors are already encapsulated. In my project two of those sensors will be used just for fun and because I have them laying arround. It defenitely will be interesting to see how the ground temperature is changing over the day.
 
-## 23rd June (2h)
+## 23rd June (4h)
 
 ### Session 1 (2h)
 
@@ -94,3 +94,13 @@ I also decided on using a new standardised format for each sensor and action mod
 I have updated some sensor moduel READMEs now to accomidate the new format. Additionally I finished the homeassistant configuration for the window and door contacts. Some inforamtions form the window contacts module regarding 3D printing instructions was also copied.
 
 Up until now I think the README for the window contacts is my favourit with its animated gif ot the CAD model and the BOM with parts at the top.
+
+### small break
+
+visiting the greenhouse and touching some grass outside :) aka not beeing glued to my monitor
+
+### Session 3 (1h)
+
+New sensor module! I have most of the parst already at home so Hackclub doesn't need to pay for them. One sensor that will be particularly interesting for greenhouse monitoring is a CO2 sensor which I unfortunately don't have. So now it's the time to add it to the project. It is is bit more expensive thatn a DHT22 or other sensor but with about 20$ also won't break the bank. Designing a mounting system was a bit difficult because I had nothign to measure of but I eventually found a datasheet with dimensions on it. In the end I decided to design a simple clamp over the sensor that can be mounted to the aluminium extrusions with two M3 screws and fitting nuts.
+
+<img src="./journal%20files/2025-06-23/mh-Z19B_mount.png" height="300" />
