@@ -17,7 +17,7 @@ The BH1750 is used for measuring light intensity in LUX. It is going to be mount
 
 ## housing
 
-You will need both parts of the case and two M3 15mm long screws with nuts compatible with your greenhouses aluminium profiles. 
+You will need both parts of the case and two M3 15mm long screws with nuts compatible with your greenhouses aluminium extrusions. 
 
 ## 3D printing
 

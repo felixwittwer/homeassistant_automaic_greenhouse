@@ -9,7 +9,7 @@ created_at: "2024-03-25"
 
 Here you can see a documentation of the entire development process.
 
-**Total hours spent: 14h**
+**Total hours spent: 15h**
 
 ## 25th May (30m)
 
@@ -79,7 +79,7 @@ I thought my project could need some proper branding and logo to let the README 
 
 I have added the Dallas temperature sensor module. Mostly it was code because the ground temperature sensors are already encapsulated. In my project two of those sensors will be used just for fun and because I have them laying arround. It defenitely will be interesting to see how the ground temperature is changing over the day.
 
-## 23rd June (4h)
+## 23rd June (5h)
 
 ### Session 1 (2h)
 
@@ -104,3 +104,10 @@ visiting the greenhouse and touching some grass outside :) aka not beeing glued 
 New sensor module! I have most of the parst already at home so Hackclub doesn't need to pay for them. One sensor that will be particularly interesting for greenhouse monitoring is a CO2 sensor which I unfortunately don't have. So now it's the time to add it to the project. It is is bit more expensive thatn a DHT22 or other sensor but with about 20$ also won't break the bank. Designing a mounting system was a bit difficult because I had nothign to measure of but I eventually found a datasheet with dimensions on it. In the end I decided to design a simple clamp over the sensor that can be mounted to the aluminium extrusions with two M3 screws and fitting nuts.
 
 <img src="./journal%20files/2025-06-23/mh-Z19B_mount.png" height="300" />
+
+### Session 4 (1h)
+
+One of the last sensor modules. Yeah! I have soldered some wires on the DHT22 sensor I had in my drawer. Forunately The sensor as a 3mm hole at the top so a M3 screw fits perfectly and I don't need to desing a custom mounting solution. I thought about adding a 3D printed shield for the sensor to protect it against direct sunlight. Currentyl it will be mounted behind the aluminium extrusion of the greenhouse so direct sunlight hopefully won't be an issue.
+
+<img src="./journal%20files/2025-06-23/DHT22.jpg" height="300" />
+

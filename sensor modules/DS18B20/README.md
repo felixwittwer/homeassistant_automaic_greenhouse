@@ -5,6 +5,7 @@ The DS18B20 is used for measuring ground temperature. Just for fun this project 
 | part name       | amount     | price          |   | things you need |
 | --------------- | ---------- | -------------- | - |---------------- |
 | DS18B20 2 meter cable | 1          | ~1.17 USD      | https://de.aliexpress.com/item/1005008024174225.html?spm=a2g0o.productlist.main.2.892a1a0e74KpG7&algo_pvid=fdca3388-9d61-4050-a1fa-ad9c645db0ba&pdp_ext_f=%7B%22order%22%3A%221023%22%2C%22eval%22%3A%221%22%7D&utparam-url=scene%3Asearch%7Cquery_from%3A  | ---             |
+| some wire       | 1          | ~              |   | ---             |
 
 ## ESPHome config
 
