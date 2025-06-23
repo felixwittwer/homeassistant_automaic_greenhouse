@@ -9,15 +9,21 @@
 | case top        | 1          | ---            |   | 3D printer      |
 | case bottom     | 1          | ---            |   | 3D printer      |
 
-[for screws and nuts have a visit you local hardware store]
+[for screws and nuts have a visit you local hardware store or buy them in a larger pack]
 
 The BH1750 is used for measuring light intensity in LUX. It is going to be mounted on the top middle rail inside thee grennhouse facing down.
 
 <img src="./images/bh1750.gif" height="400" />
 
-## housing / 3D printing
+## housing
 
 You will need bot parts of the case and two M3 15mm long screws with nuts compatible with your greenhouses aluminium profiles. 
+
+## 3D printing
+
+The desing works totally fine with my SLA printer and Anycubig tough resin. You might need to think about placing your supports and material choices. The tough resin I use is a bit elastik so the clips dont snap of and can be bend temporarily during assembly.
+
+STL Files are inside this folder.
 
 ## ESPHome config
 

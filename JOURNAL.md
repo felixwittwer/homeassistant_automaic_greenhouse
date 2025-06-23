@@ -87,4 +87,10 @@ After creating a cool loking logo and branding I decided to go on with designeni
 
 <img src="./journal%20files/2025-06-23/lux_sensor_case.png" height="300" />
 
-I also decided on using a new standardised format for each sensor and action module. Each of them has it's own Readme with a seperate BOM this should improve the experience for users who want to build a simialr project but don't need as many sensors. 
+I also decided on using a new standardised format for each sensor and action module. Each of them has it's own Readme with a seperate BOM this should improve the experience for users who want to build a simialr project but don't need as many sensors.
+
+### Session 2 (1h)
+
+I have updated some sensor moduel READMEs now to accomidate the new format. Additionally I finished the homeassistant configuration for the window and door contacts. Some inforamtions form the window contacts module regarding 3D printing instructions was also copied.
+
+Up until now I think the README for the window contacts is my favourit with its animated gif ot the CAD model and the BOM with parts at the top.
