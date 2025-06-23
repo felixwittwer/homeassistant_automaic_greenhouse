@@ -9,7 +9,7 @@ created_at: "2024-03-25"
 
 Here you can see a documentation of the entire development process.
 
-**Total hours spent: 15h**
+**Total hours spent: 16h**
 
 ## 25th May (30m)
 
@@ -79,7 +79,7 @@ I thought my project could need some proper branding and logo to let the README 
 
 I have added the Dallas temperature sensor module. Mostly it was code because the ground temperature sensors are already encapsulated. In my project two of those sensors will be used just for fun and because I have them laying arround. It defenitely will be interesting to see how the ground temperature is changing over the day.
 
-## 23rd June (5h)
+## 23rd June (6h)
 
 ### Session 1 (2h)
 
