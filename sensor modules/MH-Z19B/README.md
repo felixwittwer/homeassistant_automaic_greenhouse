@@ -17,7 +17,7 @@ The MH-Z19B will be used for CO2 measurements. I already have a lot of sensors l
 
 ## housing
 
-You will need both parts of the case and two M3 15mm long screws with nuts compatible with your greenhouses aluminium profiles. 
+You will need both parts of the case and two M3 15mm long screws with nuts compatible with your greenhouses aluminium extrusions. 
 
 ## 3D printing
 

@@ -111,3 +111,8 @@ One of the last sensor modules. Yeah! I have soldered some wires on the DHT22 se
 
 <img src="./journal%20files/2025-06-23/DHT22.jpg" height="300" />
 
+### Session 5 (1h)
+
+For now the last sensor module is complete. Prpbably the most important one for a greenhouse automation, the soil moisture sensors. i decided to go with capaciative ones pecause they dont degrade or not as easealy as some others with metal rods. Additionally I had themy lying around so why not use them :). The Homeassistant configuration I build also contains the calibration logic that has to be used once to tell the sensor what is dry and what is wet. Somebody rebuilding my procet can therefore easily build a similar setup.
+
+<img src="./journal%20files/2025-06-23/capaciative_soil_moisture_sensor.JPG" height="300" />
