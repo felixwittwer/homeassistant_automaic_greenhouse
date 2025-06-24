@@ -1,0 +1,141 @@
+esphome:
+  name: esp-greenhouse
+  friendly_name: ESP Greenhouse
+
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  encryption:
+    key: "*****"
+
+ota:
+  - platform: esphome
+    password: "****"
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+  # Make sure to setup these secrets! These are your home wifi credentials
+  
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Esp-Gewachshaus Fallback Hotspot"
+    password: "*****"
+
+captive_portal:
+    
+#Busconfig
+one_wire:
+  - platform: gpio
+    pin: GPIO25
+
+#only_temp
+sensor:
+  - platform: dallas_temp
+    address: 0x1234567890123456
+    name: temperature_ds18b20_1
+    update_interval: 60s
+  - platform: dallas_temp
+    address: 0x1234567890123456
+    name: temperature_ds18b20_2
+    update_interval: 60s
+  - platform: dht
+    pin: GPIO26
+    temperature:
+      name: temperature_dht22
+    humidity:
+      name: humidity_dht22
+    model: DHT22
+    # accuracy_decimals: 1
+    update_interval: 60s
+  - platform: adc
+    pin: GPIO34
+    accuracy_decimals: 1
+    unit_of_measurement: '%'
+    attenuation: auto
+    filters: 
+      - calibrate_linear: 
+        - 2.53 -> 100.0
+        - 3.14 -> 0
+    name: bodenfeuchtigkeit_1
+    update_interval: 60s
+  # - platform: adc
+  #   pin: GPIO34
+  #   accuracy_decimals: 5
+  #   attenuation: auto
+  #   name: bodenfeuchtigkeit_1_raw
+  #   update_interval: 5s
+  - platform: adc
+    pin: GPIO35
+    accuracy_decimals: 1
+    unit_of_measurement: '%'
+    attenuation: auto
+    filters: 
+      - calibrate_linear: 
+        - 2.53 -> 100.0
+        - 3.14 -> 0
+    name: bodenfeuchtigkeit_2
+    update_interval: 60s
+  # - platform: adc
+  #   pin: GPIO35
+  #   accuracy_decimals: 5
+  #   attenuation: auto
+  #   name: bodenfeuchtigkeit_1_raw
+  #   update_interval: 5s
+  - platform: adc
+    pin: GPIO32
+    accuracy_decimals: 1
+    unit_of_measurement: '%'
+    attenuation: auto
+    filters: 
+      - calibrate_linear: 
+        - 2.53 -> 100.0
+        - 3.14 -> 0
+    name: bodenfeuchtigkeit_3
+    update_interval: 60s
+    # - platform: adc
+    #   pin: GPIO35
+    #   accuracy_decimals: 5
+    #   attenuation: auto
+    #   name: bodenfeuchtigkeit_1_raw
+    #   update_interval: 5s
+  - platform: adc
+    pin: GPIO33
+    accuracy_decimals: 1
+    unit_of_measurement: '%'
+    attenuation: auto
+    filters: 
+      - calibrate_linear: 
+        - 2.53 -> 100.0
+        - 3.14 -> 0
+    name: bodenfeuchtigkeit_4
+    update_interval: 60s
+    # - platform: adc
+    #   pin: GPIO35
+    #   accuracy_decimals: 5
+    #   attenuation: auto
+    #   name: bodenfeuchtigkeit_1_raw
+    #   update_interval: 5s
+
+#Relais
+switch:
+  - platform: gpio
+    pin: GPIO16
+    name: "Relay 1"
+  - platform: gpio
+    pin: GPIO17
+    name: "Relay 2"
+  - platform: gpio
+    pin: GPIO18
+    name: "Relay 3"
+  - platform: gpio
+    pin: GPIO19
+    name: "Relay 4"
+

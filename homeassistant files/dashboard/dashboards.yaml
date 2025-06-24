@@ -1,0 +1,366 @@
+views:
+  - path: default_view
+    title: Home
+    cards:
+      - alert_classes:
+          - motion
+          - moisture
+        sensor_classes:
+          - temperature
+          - humidity
+        type: area
+        area: gewachshaus
+        navigation_path: /lovelace/gewaechshaus
+      - type: entities
+        entities:
+          - entity: sensor.esphome_web_2dc5e8_humidity_dht22
+          - entity: sensor.esphome_web_2dc5e8_temperature_dht22
+          - entity: sensor.esp_gewachshaus_temperature_ds18b20_1
+          - entity: sensor.esp_gewachshaus_bodenfeuchtigkeit_1
+        title: Gewächshaus
+      - type: weather-forecast
+        entity: weather.forecast_home
+        show_forecast: false
+  - type: masonry
+    path: gewaechshaus
+    cards:
+      - camera_view: auto
+        alert_classes:
+          - motion
+          - moisture
+        sensor_classes:
+          - temperature
+          - humidity
+        type: area
+        area: gewachshaus
+        navigation_path: /dashboard-test
+        show_camera: true
+      - type: vertical-stack
+        cards:
+          - type: picture-elements
+            elements:
+              - type: state-badge
+                entity: sensor.esp_gewachshaus_temperature_ds18b20_1
+                style:
+                  left: 62%
+                  top: 47%
+                  transform: translate(-50%, -50%) scale(0.7, 0.7)
+                  color: transparent
+                  '--label-badge-red': rgb(153,88,42)
+                  '--label-badge-text-color': black
+                  '--label-badge-background-color': white
+              - type: state-badge
+                entity: sensor.esp_gewachshaus_temperature_ds18b20_2
+                style:
+                  left: 72%
+                  top: 47%
+                  transform: translate(-50%, -50%) scale(0.7, 0.7)
+                  color: transparent
+                  '--label-badge-red': rgb(153,88,42)
+                  '--label-badge-text-color': black
+                  '--label-badge-background-color': white
+              - type: state-badge
+                style:
+                  left: 77%
+                  top: 73%
+                  transform: translate(-50%, -50%) scale(0.7, 0.7)
+                  color: transparent
+                  '--label-badge-red': rgb(144, 169, 85)
+                  '--label-badge-text-color': black
+                  '--label-badge-background-color': white
+                entity: sensor.esphome_web_2dc5e8_humidity_dht22
+              - type: state-badge
+                style:
+                  left: 63%
+                  top: 73%
+                  transform: translate(-50%, -50%) scale(0.7, 0.7)
+                  color: transparent
+                  '--label-badge-red': rgb(144, 169, 85)
+                  '--label-badge-text-color': black
+                  '--label-badge-background-color': white
+                entity: sensor.esphome_web_2dc5e8_temperature_dht22
+            image: /api/image/serve/62a322167320947ce5242632364276d2/512x512
+          - type: horizontal-stack
+            cards:
+              - type: gauge
+                entity: sensor.esphome_web_2dc5e8_humidity_dht22
+                name: Luftfeuchtigkeit Gewächshaus
+                unit: '%'
+                needle: false
+              - type: gauge
+                entity: sensor.esphome_web_2dc5e8_temperature_dht22
+                name: Temperatur Gewächshaus (Luft)
+                unit: °C
+                min: -10
+                max: 70
+              - type: gauge
+                entity: sensor.esp_gewachshaus_temperature_ds18b20_1
+                name: Temperatur (Boden 5 cm)
+                unit: °C
+                needle: false
+                min: -10
+                max: 70
+      - type: vertical-stack
+        cards:
+          - type: picture-elements
+            elements:
+              - type: state-badge
+                entity: sensor.esp_gewachshaus_bodenfeuchtigkeit_1
+                style:
+                  left: 36%
+                  top: 74%
+                  transform: translate(-50%, -50%) scale(0.7, 0.7)
+                  color: transparent
+                  '--label-badge-red': rgb(102, 155, 188)
+                  '--label-badge-text-color': black
+                  '--label-badge-background-color': white
+              - type: state-badge
+                entity: sensor.esp_gewachshaus_bodenfeuchtigkeit_2
+                style:
+                  left: 68%
+                  top: 74%
+                  transform: translate(-50%, -50%) scale(0.7, 0.7)
+                  color: transparent
+                  '--label-badge-red': rgb(102, 155, 188)
+                  '--label-badge-text-color': black
+                  '--label-badge-background-color': white
+              - type: state-badge
+                entity: sensor.esp_gewachshaus_bodenfeuchtigkeit_4
+                style:
+                  left: 36%
+                  top: 43%
+                  transform: translate(-50%, -50%) scale(0.7, 0.7)
+                  color: transparent
+                  '--label-badge-red': rgb(102, 155, 188)
+                  '--label-badge-text-color': black
+                  '--label-badge-background-color': white
+              - type: state-badge
+                entity: sensor.esp_gewachshaus_bodenfeuchtigkeit_3
+                style:
+                  left: 68%
+                  top: 43%
+                  transform: translate(-50%, -50%) scale(0.7, 0.7)
+                  color: transparent
+                  '--label-badge-red': rgb(102, 155, 188)
+                  '--label-badge-text-color': black
+                  '--label-badge-background-color': white
+            image: /api/image/serve/62a322167320947ce5242632364276d2/512x512
+          - type: horizontal-stack
+            cards:
+              - type: gauge
+                entity: sensor.esp_gewachshaus_bodenfeuchtigkeit_1
+                name: Bodenfeuchtigkeit (1)
+                unit: '%'
+                min: 0
+                max: 100
+              - type: gauge
+                entity: sensor.esp_gewachshaus_bodenfeuchtigkeit_2
+                name: Bodenfeuchtigkeit (2)
+                unit: '%'
+                min: 0
+                max: 100
+          - type: horizontal-stack
+            cards:
+              - type: gauge
+                entity: sensor.esp_gewachshaus_bodenfeuchtigkeit_3
+                name: Bodenfeuchtigkeit (3)
+                unit: '%'
+                min: 0
+                max: 100
+              - type: gauge
+                entity: sensor.esp_gewachshaus_bodenfeuchtigkeit_4
+                name: Bodenfeuchtigkeit (4)
+                unit: '%'
+                min: 0
+                max: 100
+      - type: vertical-stack
+        cards:
+          - type: picture-elements
+            elements:
+              - type: state-badge
+                entity: switch.esp_gewachshaus_relay_1
+                style:
+                  left: 36%
+                  top: 74%
+                  transform: translate(-50%, -50%) scale(0.7, 0.7)
+                  color: transparent
+                  '--label-badge-red': rgb(102, 155, 188)
+                  '--label-badge-text-color': black
+                  '--label-badge-background-color': white
+                tap_action:
+                  action: toggle
+              - type: state-badge
+                entity: switch.esp_gewachshaus_relay_2
+                style:
+                  left: 68%
+                  top: 74%
+                  transform: translate(-50%, -50%) scale(0.7, 0.7)
+                  color: transparent
+                  '--label-badge-red': rgb(102, 155, 188)
+                  '--label-badge-text-color': black
+                  '--label-badge-background-color': white
+                tap_action:
+                  action: toggle
+              - type: state-badge
+                entity: switch.esp_gewachshaus_relay_4
+                style:
+                  left: 36%
+                  top: 43%
+                  transform: translate(-50%, -50%) scale(0.7, 0.7)
+                  color: transparent
+                  '--label-badge-red': rgb(102, 155, 188)
+                  '--label-badge-text-color': black
+                  '--label-badge-background-color': white
+                tap_action:
+                  action: toggle
+              - type: state-badge
+                entity: switch.esp_gewachshaus_relay_3
+                style:
+                  left: 68%
+                  top: 43%
+                  transform: translate(-50%, -50%) scale(0.7, 0.7)
+                  color: transparent
+                  '--label-badge-red': rgb(102, 155, 188)
+                  '--label-badge-text-color': black
+                  '--label-badge-background-color': white
+                tap_action:
+                  action: toggle
+              - type: conditional
+                elements:
+                  - type: action-button
+                    action: switch.turn_off
+                    title: Alle Ausschalten
+                    data: {}
+                    target:
+                      entity_id:
+                        - switch.esp_gewachshaus_relay_1
+                        - switch.esp_gewachshaus_relay_2
+                        - switch.esp_gewachshaus_relay_3
+                        - switch.esp_gewachshaus_relay_4
+                    style:
+                      left: 24%
+                      top: 90%
+                conditions:
+                  - condition: or
+                    conditions:
+                      - condition: state
+                        entity: switch.esp_gewachshaus_relay_1
+                        state: 'on'
+                      - condition: or
+                        conditions:
+                          - condition: state
+                            entity: switch.esp_gewachshaus_relay_2
+                            state: 'on'
+                          - condition: or
+                            conditions:
+                              - condition: state
+                                entity: switch.esp_gewachshaus_relay_3
+                                state: 'on'
+                              - condition: or
+                                conditions:
+                                  - condition: state
+                                    entity: switch.esp_gewachshaus_relay_4
+                                    state: 'on'
+            image: /api/image/serve/62a322167320947ce5242632364276d2/512x512
+          - type: horizontal-stack
+            cards:
+              - show_name: true
+                show_icon: true
+                type: button
+                entity: switch.esp_gewachshaus_relay_1
+                name: Zone 1
+                show_state: false
+              - show_name: true
+                show_icon: true
+                type: button
+                entity: switch.esp_gewachshaus_relay_2
+                name: Zone 2
+                show_state: false
+              - show_name: true
+                show_icon: true
+                type: button
+                entity: switch.esp_gewachshaus_relay_3
+                name: Zone 3
+                show_state: false
+              - show_name: true
+                show_icon: true
+                type: button
+                entity: switch.esp_gewachshaus_relay_4
+                name: Zone 4
+                show_state: false
+      - type: vertical-stack
+        cards:
+          - type: picture-elements
+            elements:
+              - type: state-badge
+                entity: sensor.esp_gewachshaus_temperature_ds18b20_1
+                style:
+                  left: 28%
+                  top: 70%
+                  transform: translate(-50%, -50%) scale(0.7, 0.7)
+                  color: transparent
+                  '--label-badge-red': rgb(153,88,42)
+                  '--label-badge-text-color': black
+                  '--label-badge-background-color': white
+              - type: state-badge
+                entity: sensor.esp_gewachshaus_temperature_ds18b20_2
+                style:
+                  left: 55%
+                  top: 70%
+                  transform: translate(-50%, -50%) scale(0.7, 0.7)
+                  color: transparent
+                  '--label-badge-red': rgb(153,88,42)
+                  '--label-badge-text-color': black
+                  '--label-badge-background-color': white
+            image: /api/image/serve/81e11a02ebb91636a1ae8a84c0255d16/512x512
+          - type: horizontal-stack
+            cards:
+              - type: gauge
+                entity: sensor.esp_gewachshaus_temperature_ds18b20_1
+                name: Bodentemperatur (5 cm)
+              - type: gauge
+                entity: sensor.esp_gewachshaus_temperature_ds18b20_2
+                name: Bodentemperatur (10 cm)
+    title: Gewächshaus
+    icon: mdi:greenhouse
+    badges:
+      - type: entity
+        show_name: true
+        show_state: true
+        show_icon: true
+        entity: switch.esp_gewachshaus_relay_1
+        name: Zone 1
+        color: green
+        show_entity_picture: false
+        tap_action:
+          action: toggle
+      - type: entity
+        show_name: true
+        show_state: true
+        show_icon: true
+        entity: switch.esp_gewachshaus_relay_2
+        name: Zone 2
+        color: green
+        show_entity_picture: false
+        tap_action:
+          action: toggle
+      - type: entity
+        show_name: true
+        show_state: true
+        show_icon: true
+        entity: switch.esp_gewachshaus_relay_3
+        name: Zone 3
+        color: green
+        show_entity_picture: false
+        tap_action:
+          action: toggle
+      - type: entity
+        show_name: true
+        show_state: true
+        show_icon: true
+        entity: switch.esp_gewachshaus_relay_4
+        name: Zone 4
+        color: green
+        show_entity_picture: false
+        tap_action:
+          action: toggle

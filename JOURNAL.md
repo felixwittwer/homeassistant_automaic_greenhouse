@@ -9,7 +9,7 @@ created_at: "2024-03-25"
 
 Here you can see a documentation of the entire development process.
 
-**Total hours spent: 16h**
+**Total hours spent: 25h**
 
 ## May 25th (30m): initial setup
 
@@ -117,7 +117,7 @@ For now the last sensor module is complete. Prpbably the most important one for 
 
 <img src="./journal%20files/2025-06-23/capaciative_soil_moisture_sensor.JPG" height="300" />
 
-## June 24th (3h): Setting up Homeassistant
+## June 24th (8h): Setting up Homeassistant
 
 ### Session 1 (3h)
 
@@ -131,3 +131,16 @@ I directly connected the RPi4 to our Router via internet and noticed that it is 
 </p>
 
 <img src="./journal%20files/2025-06-24/first_home_dashboard.png" height="300" />
+
+### Session 2 (5h)
+
+ESPHome is now setup and running with the sensors I currently have. To get it working I put together all the small snippets I already had written for each sensor module. The current setup consists of 4 soil moisture sensors, one DHT22, two DS18B20 soil temperature sensors and a realy board.
+
+<p float="left">
+  <img src="./journal%20files/2025-06-24/esphome_log.png" height="300" />
+  <img src="./journal%20files/2025-06-24/epshome_yaml.png" height="300" />
+</p>
+
+After a lot of tinkering I got a cool dasboard together and it is working! especially styling and placing the sensor values on the map was difficult. It now correctly displays the values of the sensors I have currently set up. Because I have multiple zones for the irrigration and sensors I decided to use Homeassistants stack and map components. A notmal stack of components wouldn't be so resonsive (I want to us it on mobile and desktop and later on maybe on a dashboard) I decided to split things up in collumns and addes some stacks in beetreen that can be easialy resized by the device on the corresponding platform. I kind of fell in love with the dashboard maps and created a floor plan of our greenhouse to get a better Idea where the sensors are located in real life. There is now a map for genreal environment sensors, soil moisture sensors, irrigation system and ground temperature sensors. As a small additon I added small badges at the top of the page to have the irrigation system easialy accesible.
+
+<img src="./journal%20files/2025-06-24/homeassistant_dashboard.png" height="300" />
