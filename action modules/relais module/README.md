@@ -14,12 +14,12 @@ Be aware that this module is only needed if you want to set up an irrigation sys
 
 Rough model of the Relais module:
 
-![relais board](./relais_board.png)
+![relais board](./relais%20board/relais_board.png)
 
 
 I know every relais board will have mounting holes somewhere else so adjust it to your needs. To my knowledge the relais board I am using is no longer in production.
 
-![relais board drawing](./relais_board_drawing.png)
+![relais board drawing](./relais%20board/relais_board_drawing.png)
 
 ## housing / 3D printing
 

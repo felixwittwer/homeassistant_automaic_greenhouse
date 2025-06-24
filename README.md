@@ -4,7 +4,7 @@
 
 <br>
 <p align="center">
-    <img src="branding/green-assistant-logo-white.svg" style="width: 60%">
+    <img src="branding/green-assistant-logo-white.svg" style="width: 80%">
 </p>
 <br>
 

@@ -11,7 +11,7 @@ Here you can see a documentation of the entire development process.
 
 **Total hours spent: 16h**
 
-## 25th May (30m)
+## May 25th (30m): initial setup
 
 Just setting up the Git Repo. Finding some cool badges for the README.md file. Doing some parst reasearch.
 
@@ -19,7 +19,7 @@ Just setting up the Git Repo. Finding some cool badges for the README.md file. D
 
 ![Static Badge](https://img.shields.io/badge/Hack_Club_HIGHWAY_TO_UNDERCITY-Hack_Club?style=flat&logo=hackclub&color=white)
 
-## 29th May (1h)
+## May 29th (1h): start desingning core electrical box
 
 Finding 3D Models for electrical box and other parts. It actually took some time to find a 3D model of the electrical Box I want to repurpose for the project. And because I am sometimes a lazy person [here its more about effectiveness; who needs to design a box when manufacturues profide the files :)] But from my experiente they like to hide them.
 
@@ -30,7 +30,7 @@ I eventually found the .stp files I was searching for and imported them into Fus
   <img src="./journal%20files/2025-05-29/main_switch_fusion.png" height="400" />
 </p>
 
-## 30th May (7h 30m)
+## May 30th (7h 30m): configuring my electrical box
 
 ### Session 1 (1h 30m)
 
@@ -63,7 +63,7 @@ I am going to desing cases for all components so they can be mounted on the exis
   <img src="./journal%20files/2025-05-30/core_electrical_box_2.png" height="300" />
 </p>
 
-## 5th June (2h)
+## June 5th (2h): add some branding and Dallas sensor module
 
 ### Session 1 (1h 30m) during live call
 
@@ -79,7 +79,7 @@ I thought my project could need some proper branding and logo to let the README 
 
 I have added the Dallas temperature sensor module. Mostly it was code because the ground temperature sensors are already encapsulated. In my project two of those sensors will be used just for fun and because I have them laying arround. It defenitely will be interesting to see how the ground temperature is changing over the day.
 
-## 23rd June (6h)
+## June 23rd (6h): desinging sensor modules
 
 ### Session 1 (2h)
 
@@ -116,3 +116,18 @@ One of the last sensor modules. Yeah! I have soldered some wires on the DHT22 se
 For now the last sensor module is complete. Prpbably the most important one for a greenhouse automation, the soil moisture sensors. i decided to go with capaciative ones pecause they dont degrade or not as easealy as some others with metal rods. Additionally I had themy lying around so why not use them :). The Homeassistant configuration I build also contains the calibration logic that has to be used once to tell the sensor what is dry and what is wet. Somebody rebuilding my procet can therefore easily build a similar setup.
 
 <img src="./journal%20files/2025-06-23/capaciative_soil_moisture_sensor.JPG" height="300" />
+
+## June 24th (3h): Setting up Homeassistant
+
+### Session 1 (3h)
+
+I grabed my Raspberry Pi 4 B and an SD card and got right to installing Homeassistant for testing. In the future I will be running Homeassistant inside a VM on my NAS which is running TrueNAS Scale. While the image was downloading and later on installing on the Pi 4 I put togetehr a first prototybe with all the sensors I already have. I am going to use an ESP32 with ESPHome on it.
+
+I directly connected the RPi4 to our Router via internet and noticed that it is actually supported by Homeassistant automaticaly and I can now monitor aour nethwork useage via Homeassistant, cool stuff :). Under Add-ons I have now installed the ESPHome Device Builder. Now I can begin building a full yaml config with all the snippets I already have inside the individual sensor module folders.  
+
+<p float="left">
+  <img src="./journal%20files/2025-06-24/RPi4.jpg" height="300" />
+  <img src="./journal%20files/2025-06-24/first_prototype_with_the_parts_I_have.jpg" height="300" />
+</p>
+
+<img src="./journal%20files/2025-06-24/first_home_dashboard.png" height="300" />
