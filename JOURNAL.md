@@ -9,7 +9,7 @@ created_at: "2024-03-25"
 
 Here you can see a documentation of the entire development process.
 
-**Total hours spent: 25h**
+**Total hours spent: 29h**
 
 ## May 25th (30m): initial setup
 
@@ -117,7 +117,7 @@ For now the last sensor module is complete. Prpbably the most important one for 
 
 <img src="./journal%20files/2025-06-23/capaciative_soil_moisture_sensor.JPG" height="300" />
 
-## June 24th (8h): Setting up Homeassistant
+## June 24th (12h): Setting up Homeassistant
 
 ### Session 1 (3h)
 
@@ -144,3 +144,16 @@ ESPHome is now setup and running with the sensors I currently have. To get it wo
 After a lot of tinkering I got a cool dasboard together and it is working! especially styling and placing the sensor values on the map was difficult. It now correctly displays the values of the sensors I have currently set up. Because I have multiple zones for the irrigration and sensors I decided to use Homeassistants stack and map components. A notmal stack of components wouldn't be so resonsive (I want to us it on mobile and desktop and later on maybe on a dashboard) I decided to split things up in collumns and addes some stacks in beetreen that can be easialy resized by the device on the corresponding platform. I kind of fell in love with the dashboard maps and created a floor plan of our greenhouse to get a better Idea where the sensors are located in real life. There is now a map for genreal environment sensors, soil moisture sensors, irrigation system and ground temperature sensors. As a small additon I added small badges at the top of the page to have the irrigation system easialy accesible.
 
 <img src="./journal%20files/2025-06-24/homeassistant_dashboard.png" height="300" />
+
+### Session 3 (4h): main PCB design
+
+Since my prototype cabeling is an absolute mess and everything should be organized inside the electrical box I designed a shield pcb for the ESP32 S3 I am using. I acutally only need the PCB without assembly because I have most of the parts and from my experience JLC PCB most times does not have screw in terminals with a 5mm pin distance. Furthermore assemby is unresonably expensive for some parts that aren't smd. I intentionally designed the resistors to be non smd so they can be switched if needed. I don't know maybe the very humid enviroment isn't the best even if mostly sealed inside a the electrical box. Additionally I don't know weatcher I need the other pins of the ESP32 in the future so I decided on giving them some headers.
+
+<img src="./journal%20files/2025-06-24/pcb_preview.png" height="300" />
+
+<br>
+
+<p float="left">
+  <img src="./journal%20files/2025-06-24/pcb_preview copy.png" height="350" />
+  <img src="./journal%20files/2025-06-24/pcb_shield_schematics.png" height="350" />
+</p>
