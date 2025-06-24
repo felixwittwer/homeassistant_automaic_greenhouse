@@ -9,7 +9,7 @@ created_at: "2024-03-25"
 
 Here you can see a documentation of the entire development process.
 
-**Total hours spent: 29h**
+**Total hours spent: 30h**
 
 ## May 25th (30m): initial setup
 
@@ -117,7 +117,7 @@ For now the last sensor module is complete. Prpbably the most important one for 
 
 <img src="./journal%20files/2025-06-23/capaciative_soil_moisture_sensor.JPG" height="300" />
 
-## June 24th (12h): Setting up Homeassistant
+## June 24th (13h): Setting up Homeassistant
 
 ### Session 1 (3h)
 
@@ -157,3 +157,9 @@ Since my prototype cabeling is an absolute mess and everything should be organiz
   <img src="./journal%20files/2025-06-24/pcb_preview copy.png" height="350" />
   <img src="./journal%20files/2025-06-24/pcb_shield_schematics.png" height="350" />
 </p>
+
+### Session 4 (1h): PCB mount deisgn
+
+Becaus the PCB will defenitely wont float and will need some mounting hardware I did just that. If you are wondering how I pulled taht of especially with the random hole design of my PCB (I havent bothered to make something with nice measurements and just placed them here no traces were), I exported the PCB in KiCad to a wrl file and opened that with Blender inside Blender I exported it to an stl file (makre sure to chosse scale 1000 or else your pcb will just be a fractions of milimeters long) and importet this into Fusion 360 where I traced the holes from the stl model.
+
+<img src="./journal%20files/2025-06-24/pcb_mount.png" height="300" />

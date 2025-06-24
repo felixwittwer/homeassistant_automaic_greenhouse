@@ -368,7 +368,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "esp_shield.step",
-      "vrml": ""
+      "vrml": "esp_shield.wrl"
     },
     "page_layout_descr_file": ""
   },
