@@ -9,7 +9,7 @@ created_at: "2024-03-25"
 
 Here you can see a documentation of the entire development process.
 
-**Total hours spent: 30h**
+**Total hours spent: 32h**
 
 ## May 25th (30m): initial setup
 
@@ -164,10 +164,22 @@ Becaus the PCB will defenitely wont float and will need some mounting hardware I
 
 <img src="./journal%20files/2025-06-24/pcb_mount.png" height="300" />
 
-## June 25th (1h): adding irrigation system and finishing of
+## June 25th (2h): adding irrigation system and finishing of
 
 ### Session 1 (1h): mounting for relais board
 
 My costom PCB already had a mount but to make it perfect also the relay board needed some mounting hardware. In the end I decided to attatch the PCB via 15mm long M3 screws and correspondign nuts.
 
 <img src="./journal files/2025-06-25/relais_mounting.png" height="400" />
+
+### Session 2 (1h): planning for irrigation tubing
+
+Since all electronic parts are done now we have to think of a way to water your beloved plants inside the greenhouse. I decided to go with a 4 in 1 solanid that is perfect for my 4 zone watering system. Between all the components 10 mm PVC tubing will be used. All the individual parts for connecting the individual tube pieces will be 3D printed. So for each plant you need a t piece and a nozzle to water it. I will maybee adjust the nozzle size in the future but for now it should work. Anothe Idea might be to make kind of an l piece at the end to save on the end piece but then the entife l piece nedds to be redesigned and not just the nozzle.
+
+<img src="./journal files/2025-06-25/solanoids.jpg" height="400" />
+
+<p float="left">
+  <img src="./journal files/2025-06-25/t-piece.png" height="200" />
+  <img src="./journal files/2025-06-25/end-piece.png" height="200" />
+  <img src="./journal files/2025-06-25/nozzle-piece.png" height="200" />
+</p>
