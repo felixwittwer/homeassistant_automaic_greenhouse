@@ -176,10 +176,20 @@ My costom PCB already had a mount but to make it perfect also the relay board ne
 
 Since all electronic parts are done now we have to think of a way to water your beloved plants inside the greenhouse. I decided to go with a 4 in 1 solanid that is perfect for my 4 zone watering system. Between all the components 10 mm PVC tubing will be used. All the individual parts for connecting the individual tube pieces will be 3D printed. So for each plant you need a t piece and a nozzle to water it. I will maybee adjust the nozzle size in the future but for now it should work. Anothe Idea might be to make kind of an l piece at the end to save on the end piece but then the entife l piece nedds to be redesigned and not just the nozzle.
 
-<img src="./journal files/2025-06-25/solanoids.jpg" height="400" />
+<p float="left">
+  <img src="./journal files/2025-06-25/solanoids.jpg" height="300" />
+  <img src="./journal files/2025-06-25/tubing_map.png" height="300" />
+</p>
 
 <p float="left">
   <img src="./journal files/2025-06-25/t-piece.png" height="200" />
   <img src="./journal files/2025-06-25/end-piece.png" height="200" />
   <img src="./journal files/2025-06-25/nozzle-piece.png" height="200" />
 </p>
+
+### Session 3 (2h): adding a wiring diagramm
+
+Most wiring is done with the PCB but all the sensor still need to be connected. Here comes the electrical box into play. I am going to use the old already in place DIN rails to mount everything from the relais to the custom PCB inisde. All the sensors will be outside of the box in the places where they need to be. Besides the wiring diagram I finisted the design of the electrical box and arranged its components.
+
+<img src="./journal files/2025-06-25/wiring diagram.png" height="400" />
+<img src="./journal files/2025-06-25/core_electrical_box.png" height="400" />
