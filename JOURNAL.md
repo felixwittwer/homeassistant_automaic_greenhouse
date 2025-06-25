@@ -9,7 +9,7 @@ created_at: "2024-03-25"
 
 Here you can see a documentation of the entire development process.
 
-**Total hours spent: 32h**
+**Total hours spent: 34h**
 
 ## May 25th (30m): initial setup
 
@@ -164,7 +164,7 @@ Becaus the PCB will defenitely wont float and will need some mounting hardware I
 
 <img src="./journal%20files/2025-06-24/pcb_mount.png" height="300" />
 
-## June 25th (2h): adding irrigation system and finishing of
+## June 25th (4h): adding irrigation system and finishing of
 
 ### Session 1 (1h): mounting for relais board
 
@@ -193,3 +193,9 @@ Most wiring is done with the PCB but all the sensor still need to be connected. 
 
 <img src="./journal files/2025-06-25/wiring diagram.png" height="400" />
 <img src="./journal files/2025-06-25/core_electrical_box.png" height="400" />
+
+### Session 4 (1h): writing some documentation and making it easier to create your custom Green Assistant
+
+Because it could be difficult to understand the projects structure I designed a small diagram on where to start and how to configure your Green Assistant. With this map someone else could easealy start building theor own smart greenhouse. Besides that I extended the main README file a bit.
+
+<img src="./journal files/2025-06-25/your_green_assistant.png" height="500" />
