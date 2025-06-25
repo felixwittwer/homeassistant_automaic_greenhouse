@@ -163,3 +163,11 @@ Since my prototype cabeling is an absolute mess and everything should be organiz
 Becaus the PCB will defenitely wont float and will need some mounting hardware I did just that. If you are wondering how I pulled taht of especially with the random hole design of my PCB (I havent bothered to make something with nice measurements and just placed them here no traces were), I exported the PCB in KiCad to a wrl file and opened that with Blender inside Blender I exported it to an stl file (makre sure to chosse scale 1000 or else your pcb will just be a fractions of milimeters long) and importet this into Fusion 360 where I traced the holes from the stl model.
 
 <img src="./journal%20files/2025-06-24/pcb_mount.png" height="300" />
+
+## June 25th (1h): adding irrigation system and finishing of
+
+### Session 1 (1h): mounting for relais board
+
+My costom PCB already had a mount but to make it perfect also the relay board needed some mounting hardware. In the end I decided to attatch the PCB via 15mm long M3 screws and correspondign nuts.
+
+<img src="./journal files/2025-06-25/relais_mounting.png" height="400" />

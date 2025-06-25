@@ -21,9 +21,11 @@ I know every relais board will have mounting holes somewhere else so adjust it t
 
 ![relais board drawing](./relais%20board/relais_board_drawing.png)
 
-## housing / 3D printing
+## mounting / 3D printing
 
-comming soon.
+you will need to print mounting hardware for attatching the relais board to DIN rails. Besides the part irselt you need four M3 15mm screws and corrsponding nuts.
+
+<img src="./images/Relais Module mounting.gif" height="400" />
 
 
 ## ESPHome config
