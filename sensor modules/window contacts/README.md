@@ -28,7 +28,8 @@ STL Files are inside this folder.
 
 ``` yaml
 binary sensor:
-  - platform: ...
+  - platform: gpio
+    pin: GPIOXX
     name: "window contact"
     device_class: window
     update_interval: 60s
@@ -38,7 +39,8 @@ for a door sensor:
 
 ``` yaml
 binary sensor:
-  - platform: ...
+  - platform: gpio
+    pin: GPIOXX
     name: "door contact"
     device_class: door
     update_interval: 60s

@@ -205,3 +205,7 @@ Because it could be difficult to understand the projects structure I designed a 
 ### Session 1 (2h): researching parts and creating BOM
 
 As one of the last steps of the planing phase I finished the BOM list of the project luckily I have most parts of my BOM already at home and also can 3D print parts at home. Fort somebody that is going to build his own system it is imortant to nate that you defenitely don't need a industrial grade waterproof electrical box but we already had one so why don't use it. But for anyone else: you will be fine with buying a DIN Rail and mounting your stuff to it.
+
+### Session 2 (2h): doing some final touchups and completing ESPHome config
+
+I have noticed that I have forgotten to add some codesnippets form the individual sensors to the main ESPHome config so I did that now. I have designed and coded all parts for the window and door sensors but forgot them on the PCB. This isn't bad at all because I thought about having all remaining pins pined out so I can add some stuff later on. The PCB has the perfect formfactor and I will not change it now because of space inside the electrical box. The sensors can still be added easily.

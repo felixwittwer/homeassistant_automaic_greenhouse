@@ -34,7 +34,20 @@ captive_portal:
 #Busconfig
 one_wire:
   - platform: gpio
-    pin: GPIO25
+    pin: GPIO1
+
+#I2C config
+i2c:
+  sda: GPIOXX
+  scl: GPIOXX
+  scan: true
+  id: bus_a
+
+# UART config
+uart:
+  tx_pin: GPIOXX
+  rx_pin: GPIOXX
+  baud_rate: 9600
 
 #only_temp
 sensor:
@@ -47,7 +60,7 @@ sensor:
     name: temperature_ds18b20_2
     update_interval: 60s
   - platform: dht
-    pin: GPIO26
+    pin: GPIO10
     temperature:
       name: temperature_dht22
     humidity:
@@ -56,7 +69,7 @@ sensor:
     # accuracy_decimals: 1
     update_interval: 60s
   - platform: adc
-    pin: GPIO34
+    pin: GPIO4
     accuracy_decimals: 1
     unit_of_measurement: '%'
     attenuation: auto
@@ -67,13 +80,13 @@ sensor:
     name: bodenfeuchtigkeit_1
     update_interval: 60s
   # - platform: adc
-  #   pin: GPIO34
+  #   pin: GPIO4
   #   accuracy_decimals: 5
   #   attenuation: auto
   #   name: bodenfeuchtigkeit_1_raw
   #   update_interval: 5s
   - platform: adc
-    pin: GPIO35
+    pin: GPIO5
     accuracy_decimals: 1
     unit_of_measurement: '%'
     attenuation: auto
@@ -84,13 +97,13 @@ sensor:
     name: bodenfeuchtigkeit_2
     update_interval: 60s
   # - platform: adc
-  #   pin: GPIO35
+  #   pin: GPIO5
   #   accuracy_decimals: 5
   #   attenuation: auto
   #   name: bodenfeuchtigkeit_1_raw
   #   update_interval: 5s
   - platform: adc
-    pin: GPIO32
+    pin: GPIO6
     accuracy_decimals: 1
     unit_of_measurement: '%'
     attenuation: auto
@@ -101,13 +114,13 @@ sensor:
     name: bodenfeuchtigkeit_3
     update_interval: 60s
     # - platform: adc
-    #   pin: GPIO35
+    #   pin: GPIO6
     #   accuracy_decimals: 5
     #   attenuation: auto
     #   name: bodenfeuchtigkeit_1_raw
     #   update_interval: 5s
   - platform: adc
-    pin: GPIO33
+    pin: GPIO7
     accuracy_decimals: 1
     unit_of_measurement: '%'
     attenuation: auto
@@ -118,24 +131,50 @@ sensor:
     name: bodenfeuchtigkeit_4
     update_interval: 60s
     # - platform: adc
-    #   pin: GPIO35
+    #   pin: GPIO7
     #   accuracy_decimals: 5
     #   attenuation: auto
     #   name: bodenfeuchtigkeit_1_raw
     #   update_interval: 5s
+  - platform: bh1750
+    name: "BH1750_illuminance"
+    address: 0x23
+    update_interval: 60s
+  - platform: mhz19
+    co2:
+      name: MH-Z19_CO2_value
+    temperature:
+      name: MH-Z19_temperature
+
+binary sensor:
+  - platform: gpio
+    pin: GPIO19
+    name: "door_contact"
+    device_class: door
+    update_interval: 60s
+  - platform: gpio
+    pin: GPIO20
+    name: "window_contact_1"
+    device_class: window
+    update_interval: 60s
+  - platform: gpio
+    pin: GPIO21
+    name: "window_contact_1"
+    device_class: window
+    update_interval: 60s
 
 #Relais
 switch:
   - platform: gpio
-    pin: GPIO16
+    pin: GPIO15
     name: "Relay 1"
   - platform: gpio
-    pin: GPIO17
+    pin: GPIO16
     name: "Relay 2"
   - platform: gpio
-    pin: GPIO18
+    pin: GPIO17
     name: "Relay 3"
   - platform: gpio
-    pin: GPIO19
+    pin: GPIO18
     name: "Relay 4"
 

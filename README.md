@@ -15,7 +15,7 @@ A cool Project to make your greenhouse smart. What about automaic irrigation and
 This project actually is sthe second iteration on me trying to automate our greenhouse. The first version relied on an Arduino Uno powered by a 24V powertool battery and sensordata was logged to an SD-card. Since we now have power and wifi connectivity to the greenhouse I wanted to step up the game and build something that is way smarter and will hopefully last forever. If you were wondering this is why an industrial grade electrical box with rails was used.
 
 ## The concept of sensor and action modules
-This project is a very speced out version of a greenhouse automation and environmental monitoring system. Due to cost or other reasons you might not include all the sensors used by me. To make it easyer to do so each sensor is getting his own folder inside the sensor modules directory. You will find everything you need to know about a so called sensor module inside this folder from CAD files, STL Files for 3D printing and scematics to instructions on sourcing the parts.
+This project is a very specked out version of a greenhouse automation and environmental monitoring system. Due to cost or other reasons you might not include all the sensors used by me. To make it easyer to do so each sensor is getting his own folder inside the sensor modules directory. You will find everything you need to know about a so called sensor module inside this folder from CAD files, STL Files for 3D printing and scematics to instructions on sourcing the parts.
 
 A detailed list of all sensors used in the project can be found in the **sensor modules** directory.
 
@@ -39,6 +39,23 @@ All files corresponding to the main part of the project so the electrical box wi
 
 <img src="./core/electrical box/core_electrical_box.png" height="400" />
 <img src="./core/electrical box/Eaton_Box_ci44x_125_na v20.gif" height="400" />
+
+### Mounting hardware
+
+<img src="./journal%20files/2025-06-24/pcb_mount.png" height="300" />
+<img src="./journal files/2025-06-25/relais_mounting.png" height="300" />
+
+<img src="./journal%20files/2025-05-30/window_contact_sensor_module.png" height="300" />
+<img src="./journal%20files/2025-06-23/mh-Z19B_mount.png" height="300" />
+<img src="./journal%20files/2025-06-23/lux_sensor_case.png" height="300" />
+
+### Irrigation system
+
+<p float="left">
+  <img src="./journal files/2025-06-25/t-piece.png" height="200" />
+  <img src="./journal files/2025-06-25/end-piece.png" height="200" />
+  <img src="./journal files/2025-06-25/nozzle-piece.png" height="200" />
+</p>
 
 ### PCB
 
