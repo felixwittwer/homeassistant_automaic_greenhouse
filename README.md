@@ -17,11 +17,11 @@ This project actually is sthe second iteration on me trying to automate our gree
 ## The concept of sensor and action modules
 This project is a very specked out version of a greenhouse automation and environmental monitoring system. Due to cost or other reasons you might not include all the sensors used by me. To make it easyer to do so each sensor is getting his own folder inside the sensor modules directory. You will find everything you need to know about a so called sensor module inside this folder from CAD files, STL Files for 3D printing and scematics to instructions on sourcing the parts.
 
-A detailed list of all sensors used in the project can be found in the **sensor modules** directory.
+A detailed list of all sensors used in the project can be found in the [**sensor modules**](/sensor%20modules/) directory.
 
 Like the sensors you might choose to leave out some action modules aka the parts that actually do something like the relais and solanoids for an irrigation system.
 
-These so called action modules with all their corresponding documentation and files can be found in the **action modules** directory.
+These so called action modules with all their corresponding documentation and files can be found in the [**action modules**](/action%20modules/) directory.
 
 ## Where to start
 
@@ -59,7 +59,7 @@ All files corresponding to the main part of the project so the electrical box wi
 
 ### PCB
 
-You will need this PCB to connect all sensors reliably to the ESP32 S3. All unused pins of the ESP also have a connection to a pinheader so you are free to add sensors without needing to modify the PCB. 
+You will need this PCB to connect all sensors reliably to the ESP32 S3. All unused pins of the ESP also have a connection to a pinheader so feel free to add sensors without needing to modify the PCB. 
 
 PCB Sourcefiles can be found inside [core/esp32 pcb and mounting/pcb files/esp shield](./core/esp32%20pcb%20and%20mounting/pcb%20files/esp_shield/).
 
@@ -72,7 +72,7 @@ PCB Sourcefiles can be found inside [core/esp32 pcb and mounting/pcb files/esp s
 
 ### Wiring
 
-Wehn you have coosen your parts and want to build your Green Assistant have alook at this wiring diagramm of all the sensors.
+When you have choosen your parts and want to build your Green Assistant have alook at this wiring diagramm of all the sensors.
 
 <img src="./core/wiring diagram.png" height="400" />
 
@@ -86,7 +86,7 @@ All stuff regarding Homeassistant can be found in the **homeassistant files** di
 
 # BOM
 
-**@Hackclub** please note that some parts are abit expensive but I already have them so they are listed here just for reference if somebody wontas to build his own Green Assistant. Go here for a list of parts I seek Hackclub sponsorship for.
+**@Hackclub** please note that some parts are a bit expensive but I already have them so they are listed here just for reference if somebody wontas to build his own Green Assistant. Go [here](./parts/Hackclub_BOM.csv) for a list of parts I seek Hackclub sponsorship for.
 
 **sum: 318.49 USD**
 
