@@ -9,7 +9,7 @@ created_at: "2024-03-25"
 
 Here you can see a documentation of the entire development process.
 
-**Total hours spent: 34h**
+**Total hours spent: 36h**
 
 ## May 25th (30m): initial setup
 
@@ -199,3 +199,9 @@ Most wiring is done with the PCB but all the sensor still need to be connected. 
 Because it could be difficult to understand the projects structure I designed a small diagram on where to start and how to configure your Green Assistant. With this map someone else could easealy start building theor own smart greenhouse. Besides that I extended the main README file a bit.
 
 <img src="./journal files/2025-06-25/your_green_assistant.png" height="500" />
+
+## June 30th (2h)
+
+### Session 1 (2h): researching parts and creating BOM
+
+As one of the last steps of the planing phase I finished the BOM list of the project luckily I have most parts of my BOM already at home and also can 3D print parts at home. Fort somebody that is going to build his own system it is imortant to nate that you defenitely don't need a industrial grade waterproof electrical box but we already had one so why don't use it. But for anyone else: you will be fine with buying a DIN Rail and mounting your stuff to it.
