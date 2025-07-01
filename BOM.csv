@@ -15,23 +15,23 @@ Capaciative Soil Moisture Sensor,5,~2.37 USD (5pcs),"https://de.aliexpress.com/i
 Shrink tubing 4:1 24mmx1.22 meter,1,~3.08 USD,"https://de.aliexpress.com/item/32812574636.html?spm=a2g0o.productlist.main.1.1d6b2ff5rBIF75&algo_pvid=04fab651-0aed-4642-95ae-c8c0465ccd88&pdp_ext_f={""order""%3A""1827""%2C""eval""%3A""1""}&utparam-url=scene%3Asearch|query_from%3A",---
 Reed switch Breackout,1,~0.65 USD (10pcs),"https://de.aliexpress.com/item/1005008372135180.html?spm=a2g0o.productlist.main.19.4fe959f0QsmFeq&algo_pvid=b2bcd3b2-6353-4def-9e17-8f16d86e7c01&pdp_ext_f={""order""%3A""45""%2C""eval""%3A""1""}&utparam-url=scene%3Asearch|query_from%3A",---
 magnet 10x2mm,2,~2.26 USD (20pcs),"https://de.aliexpress.com/item/1005009266299777.html?spm=a2g0o.productlist.main.1.73353687XlFb9S&algo_pvid=005b8154-ff95-40c2-aa0e-3425ebdeabd9&pdp_ext_f={""order""%3A""42""%2C""eval""%3A""1""}&utparam-url=scene%3Asearch|query_from%3A",---
-PCB (without assembly),1,~5 USD subject to JLCPCB,if you choose assembly it will be more expensive but I already have the parts at home
-M3 screws 10mm,8,~,---
-M3 screws 15mm,2,~,---
-M3 nuts,10,~,---
+PCB (without assembly),1,~5 USD subject to JLCPCB,,if you choose assembly it will be more expensive but I already have the parts at home
+M3 screws 10mm,8,~,,---
+M3 screws 15mm,2,~,,---
+M3 nuts,10,~,,---
 -> set of screws and nuts,1,1.19 USD,"https://de.aliexpress.com/item/1005007273134914.html?spm=a2g0o.productlist.main.7.2cb11b1aQ6xTNZ&algo_pvid=134ed8c9-ae6d-44f4-80cc-761426203be1&pdp_ext_f={""order""%3A""476""%2C""eval""%3A""1""}&utparam-url=scene%3Asearch|query_from%3A",
 some wire (15m),2,21.22 USD,"https://de.aliexpress.com/item/1005007371239057.html?spm=a2g0o.productlist.main.8.a56f4f561YvSN9&aem_p4p_detail=2025063002162114202903362944350000136812&algo_pvid=5b7d4cc4-4e18-49cf-aad0-bd6d2e445630&pdp_ext_f={""order""%3A""5""%2C""eval""%3A""1""}&utparam-url=scene%3Asearch|query_from%3A&search_p4p_id=2025063002162114202903362944350000136812_2",ethernet cable is shielded -> better for analog sensors (especially for longer distances)
-t-piece,22,---,3D-printed part
-nozzle-piece,22,---,3D-printed part
-end-piece,4,---,3D-printed part
-Ralais module mounting,1,---,3D-printed part
-PCB Mounting,1,---,3D-printed part
-BH1750 case top,1,---,3D-printed part
-BH1750 case bottom,1,---,3D-printed part
-MH-Z19B case top,1,---,3D-printed part
-MH-Z19B case bottom,1,---,3D-printed part
-magnet case top,1,---,3D-printed part
-magnet case bottom,1,---,3D-printed part
-reed case top,1,---,3D-printed part
-reed case bottom,1,---,3D-printed part
-total, ,~318.49 USD
+t-piece,22,---,,3D-printed part
+nozzle-piece,22,---,,3D-printed part
+end-piece,4,---,,3D-printed part
+Ralais module mounting,1,---,,3D-printed part
+PCB Mounting,1,---,,3D-printed part
+BH1750 case top,1,---,,3D-printed part
+BH1750 case bottom,1,---,,3D-printed part
+MH-Z19B case top,1,---,,3D-printed part
+MH-Z19B case bottom,1,---,,3D-printed part
+magnet case top,1,---,,3D-printed part
+magnet case bottom,1,---,,3D-printed part
+reed case top,1,---,,3D-printed part
+reed case bottom,1,---,,3D-printed part
+total, ,~318.49 USD,,
