@@ -9,7 +9,7 @@ created_at: "2024-03-25"
 
 Here you can see a documentation of the entire development process.
 
-**Total hours spent: 36h**
+**Total hours spent: 38h**
 
 ## May 25th (30m): initial setup
 
@@ -209,3 +209,12 @@ As one of the last steps of the planing phase I finished the BOM list of the pro
 ### Session 2 (2h): doing some final touchups and completing ESPHome config
 
 I have noticed that I have forgotten to add some codesnippets form the individual sensors to the main ESPHome config so I did that now. I have designed and coded all parts for the window and door sensors but forgot them on the PCB. This isn't bad at all because I thought about having all remaining pins pined out so I can add some stuff later on. The PCB has the perfect formfactor and I will not change it now because of space inside the electrical box. The sensors can still be added easily.
+
+## July 17th (2h) designing, printing and installing cable clips
+
+To cleanly mount the ethernetwire I choose to the greenhous aluminium extrusions I designed some cable clips that simply could be twisted into the slot. After designing and testing I made a second improved final version. The clips then were printed on my SLA resin printer.
+
+<p float="left">
+  <img src="./journal files/2025-07-17/clip_cad.png" height="300" />
+  <img src="./journal files/2025-07-17/clips_curing.jpg" height="300" />
+</p>
