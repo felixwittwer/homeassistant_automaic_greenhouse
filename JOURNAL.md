@@ -9,7 +9,7 @@ created_at: "2024-03-25"
 
 Here you can see a documentation of the entire development process.
 
-**Total hours spent: 38h**
+**Total hours spent: 39h**
 
 ## May 25th (30m): initial setup
 
@@ -218,3 +218,12 @@ To cleanly mount the ethernetwire I choose to the greenhous aluminium extrusions
   <img src="./journal files/2025-07-17/clip_cad.png" height="300" />
   <img src="./journal files/2025-07-17/clips_curing.jpg" height="300" />
 </p>
+
+## July 18th (1h)
+
+### Session 1 (1h) PCBs and parts finally arrived
+
+The PCB and other parts finally arrived today. As a first step I populated the PCB with all the parts. From today on my 3D printer will run constantly to print all the parts.
+
+<img src="./journal files/2025-07-18/pcb_assembled.jpg" height="300" />
+
