@@ -9,7 +9,7 @@ created_at: "2024-03-25"
 
 Here you can see a documentation of the entire development process.
 
-**Total hours spent: 39h**
+**Total hours spent: 39h 30m**
 
 ## May 25th (30m): initial setup
 
@@ -219,7 +219,7 @@ To cleanly mount the ethernetwire I choose to the greenhous aluminium extrusions
   <img src="./journal files/2025-07-17/clips_curing.jpg" height="300" />
 </p>
 
-## July 18th (1h)
+## July 18th (1h 30m)
 
 ### Session 1 (1h) PCBs and parts finally arrived
 
@@ -227,3 +227,8 @@ The PCB and other parts finally arrived today. As a first step I populated the P
 
 <img src="./journal files/2025-07-18/pcb_assembled.jpg" height="300" />
 
+### Session 2 (30m) M3 nut adapter
+
+After noticing that the slots inside the aliminium extrusions of my greenhouse are a bit to large to fit M3 nuts I designed an adapter to widen its footprint and stil use the with all the current sensor module designs. This save some time because I don't need to modify all sensor moduels and don't need to buy new screws.
+
+<img src="./journal files/2025-07-18/nut_adapter.png" height="300" />
