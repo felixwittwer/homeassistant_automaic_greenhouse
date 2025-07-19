@@ -9,7 +9,7 @@ created_at: "2024-03-25"
 
 Here you can see a documentation of the entire development process.
 
-**Total hours spent: 39h 30m**
+**Total hours spent: 41h 30m**
 
 ## May 25th (30m): initial setup
 
@@ -232,3 +232,9 @@ The PCB and other parts finally arrived today. As a first step I populated the P
 After noticing that the slots inside the aliminium extrusions of my greenhouse are a bit to large to fit M3 nuts I designed an adapter to widen its footprint and stil use the with all the current sensor module designs. This save some time because I don't need to modify all sensor moduels and don't need to buy new screws.
 
 <img src="./journal files/2025-07-18/nut_adapter.png" height="300" />
+
+## July 19th (2h) testing the PCB
+
+I just finished printing the mount for the CO2 sensor. While the printer was doing its stuff I put all the wires in place to test if all the sensors work. Yeah say so they work now but it took a while to get them work. First of all the PCB needed to be powerd via the 5V terminal which is the case in the final version but not now. took me a while to figure this out but sensors don't work without power :). Secondly the RX and TX pins of the CO2 sensor were labled wrong in the datasheet. And It took me a while to figure that out.
+
+<img src="./journal files/2025-07-19/testing_wiring.jpg" height="500" />
