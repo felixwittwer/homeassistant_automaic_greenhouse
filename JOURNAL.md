@@ -9,7 +9,7 @@ created_at: "2024-03-25"
 
 Here you can see a documentation of the entire development process.
 
-**Total hours spent: 41h 30m**
+**Total hours spent: 45h 30m**
 
 ## May 25th (30m): initial setup
 
@@ -238,3 +238,9 @@ After noticing that the slots inside the aliminium extrusions of my greenhouse a
 I just finished printing the mount for the CO2 sensor. While the printer was doing its stuff I put all the wires in place to test if all the sensors work. Yeah say so they work now but it took a while to get them work. First of all the PCB needed to be powerd via the 5V terminal which is the case in the final version but not now. took me a while to figure this out but sensors don't work without power :). Secondly the RX and TX pins of the CO2 sensor were labled wrong in the datasheet. And It took me a while to figure that out.
 
 <img src="./journal files/2025-07-19/testing_wiring.jpg" height="500" />
+
+## July 21st (4h) start wiring the electrical box
+
+I would have never thought that wiring inside the electrical box takes soooo much time. It tooke me 4 hours now to wire up a good portion of the sensors. The rest of the sensors will be done tomorrow. Besides wiring I also picked up some additional tubing stuff for the irragation system.
+
+<img src="./journal files/2025-07-21/start_wiring.jpg" height="500" />
