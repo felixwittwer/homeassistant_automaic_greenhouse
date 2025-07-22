@@ -9,7 +9,7 @@ created_at: "2024-03-25"
 
 Here you can see a documentation of the entire development process.
 
-**Total hours spent: 45h 30m**
+**Total hours spent: 51h 30m**
 
 ## May 25th (30m): initial setup
 
@@ -244,3 +244,17 @@ I just finished printing the mount for the CO2 sensor. While the printer was doi
 I would have never thought that wiring inside the electrical box takes soooo much time. It tooke me 4 hours now to wire up a good portion of the sensors. The rest of the sensors will be done tomorrow. Besides wiring I also picked up some additional tubing stuff for the irragation system.
 
 <img src="./journal files/2025-07-21/start_wiring.jpg" height="500" />
+
+## July 22nd (6h)
+
+### Session 1 (3h) finishing sensor wiring
+
+Today I finally finished wiring all the individual connections from my cusom PCB to the screw terminals whicht are clipped to the most bottom DIN rail. The last step in finishing the electrical box will be to hock it up to mains power and install a standard receptacle plug. After that the sensors only need to be connected via a shielded ethernet cable to the bottom terminals.
+
+<img src="./journal files/2025-07-22/finished_sensor_wiring_box.jpg" height="500" />
+
+### Session 2 (3h) start making quick/emergency guide
+
+I now also started to write or actually draw a small manual for the electrical box. So if someone else is going to modify, maintain or expand the system he doesn't get electrecuted immediately. Besides that there will also be a sheet wir instructions on how to turn zhe system on and what the error codes mean. These three to four sheets will be laminated and kept near the box outside.
+
+<img src="./journal files/2025-07-22/electrical_box_map.png" height="500" />
