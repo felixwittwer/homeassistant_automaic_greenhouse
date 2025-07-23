@@ -9,7 +9,7 @@ created_at: "2024-03-25"
 
 Here you can see a documentation of the entire development process.
 
-**Total hours spent: 51h 30m**
+**Total hours spent: 54h 30m**
 
 ## May 25th (30m): initial setup
 
@@ -258,3 +258,9 @@ Today I finally finished wiring all the individual connections from my cusom PCB
 I now also started to write or actually draw a small manual for the electrical box. So if someone else is going to modify, maintain or expand the system he doesn't get electrecuted immediately. Besides that there will also be a sheet wir instructions on how to turn zhe system on and what the error codes mean. These three to four sheets will be laminated and kept near the box outside.
 
 <img src="./journal files/2025-07-22/electrical_box_map.png" height="500" />
+
+## July 23rd (3h) finishing wiring to mains power and install electrical box inside the greenhouse
+
+Finished the last fer wires for connection to mains power and installed the electrical box inside the greenhouse today. Took a bit of time digging two holes for the steel L extrusions. Dirlling the holes tof mounting teh box took sume time due to blunt drill bits :) but eventually found a sharp one which made this step much easier.
+
+<img src="./journal files/2025-07-23/electricalbox_installed.JPG" height="600" />
