@@ -9,7 +9,7 @@ created_at: "2024-03-25"
 
 Here you can see a documentation of the entire development process.
 
-**Total hours spent: 62h 30m**
+**Total hours spent: 69h**
 
 ## May 25th (30m): initial setup
 
@@ -281,3 +281,14 @@ To water all the plants inside thee greenhause I used some simple PCV plastick t
 
 For my last task for today I choose to wire up some sensors. After making a mistake in the wiring and redoing alsmost verything I managed to get both ground temperature sensors working. Three soil moisture sensors are already connected but dont seem to work properly. But wiring up the remaining sensors and making the sensors work is a task for tomorrow. Maybe a simple calibration could solve the issue.
 
+## July 25th (6h 30m)
+
+Status update: Most :) of the installed parts already work perfectliy aka the irrigation system which today run two times perfectly. During some troubleshooting I also confimed that the large shrink tubing with some kind of hot glue in it is actually acually waterproof.
+
+### Session 1 (3h) adding soil moisture sensor and CO2 sensor
+
+I succesfully wirde up the last soild mosuture sensor for zone one. Additionally I precut all wires for the remaining sensors and fixed them into place by using my cool twist in clips for the aluminium extrusions. Surprisingly the CO2 seonsor worked from the beginning without any issues. Due to the housing for the light sensor not beeing printed yet I soldered a JST connector on the ent of the wire and sealed everything with some shrink tubing.
+
+### Session 2 (3h 30min) troubleshooting
+
+Two of the soil moisture sensors are not working so I cut the shinktubing open to se what is wrong to my surprise the wires seemed to be connected correctly even after coninuity testing it. As I later on found out, the sensors need to be a minimum amount of wet or deep inside the soil and mine werent. After remaking the connections and sealing the sensors with the big shrink tubing they worked. In addition to the harwdere fix I also updeted some parts of the software to accomidate the new voltage levels and correct caluclation of the percentages. In the end I got the soil sensors to work. The soiuld temperature sensors work mostly fine but simetimes the think the soil is at 85°C or has no temperature at all which is defenitely not the case. A reeboot of the ESP resolved the problems everytime.

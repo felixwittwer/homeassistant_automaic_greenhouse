@@ -75,7 +75,7 @@ sensor:
     attenuation: auto
     filters: 
       - calibrate_linear: 
-        - 2.53 -> 100.0
+        - 2.0 -> 100.0
         - 3.14 -> 0
     name: bodenfeuchtigkeit_1
     update_interval: 60s
@@ -92,7 +92,7 @@ sensor:
     attenuation: auto
     filters: 
       - calibrate_linear: 
-        - 2.53 -> 100.0
+        - 2.0 -> 100.0
         - 3.14 -> 0
     name: bodenfeuchtigkeit_2
     update_interval: 60s
@@ -109,7 +109,7 @@ sensor:
     attenuation: auto
     filters: 
       - calibrate_linear: 
-        - 2.53 -> 100.0
+        - 2.0 -> 100.0
         - 3.14 -> 0
     name: bodenfeuchtigkeit_3
     update_interval: 60s
@@ -126,7 +126,7 @@ sensor:
     attenuation: auto
     filters: 
       - calibrate_linear: 
-        - 2.53 -> 100.0
+        - 2.0 -> 100.0
         - 3.14 -> 0
     name: bodenfeuchtigkeit_4
     update_interval: 60s
