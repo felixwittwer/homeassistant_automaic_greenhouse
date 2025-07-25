@@ -9,7 +9,7 @@ created_at: "2024-03-25"
 
 Here you can see a documentation of the entire development process.
 
-**Total hours spent: 54h 30m**
+**Total hours spent: 62h 30m**
 
 ## May 25th (30m): initial setup
 
@@ -264,3 +264,20 @@ I now also started to write or actually draw a small manual for the electrical b
 Finished the last fer wires for connection to mains power and installed the electrical box inside the greenhouse today. Took a bit of time digging two holes for the steel L extrusions. Dirlling the holes tof mounting teh box took sume time due to blunt drill bits :) but eventually found a sharp one which made this step much easier.
 
 <img src="./journal files/2025-07-23/electricalbox_installed.JPG" height="600" />
+
+## July 24th (8h)
+
+### Session 1 (2h) Pluming
+
+So yesterday I finished installing the electrical box. Today I started with laying out a new garden hose from our pump to the greenhouse. To integrate it into our existing garden hose system I needed to build a second howse branch from the existing system which can be shut of with a ball valve.
+
+<img src="./journal files/2025-07-24/with_pluming_work.png" height="600" />
+
+### Session 2 (2h) installing the irrigation system
+
+To water all the plants inside thee greenhause I used some simple PCV plastick tubing. Originally I wanted to print T pieces and nozzels for this tubing but went for just tieing it straight to a bar and making some holes with a screwdriver in it. It is defenitely a much easier solution and th dubing is free of additional plastics so it sould be drinking water quality save.
+
+### Session 2 (4h) Wiring a few sensors
+
+For my last task for today I choose to wire up some sensors. After making a mistake in the wiring and redoing alsmost verything I managed to get both ground temperature sensors working. Three soil moisture sensors are already connected but dont seem to work properly. But wiring up the remaining sensors and making the sensors work is a task for tomorrow. Maybe a simple calibration could solve the issue.
+
