@@ -272,6 +272,7 @@ Finished the last fer wires for connection to mains power and installed the elec
 So yesterday I finished installing the electrical box. Today I started with laying out a new garden hose from our pump to the greenhouse. To integrate it into our existing garden hose system I needed to build a second howse branch from the existing system which can be shut of with a ball valve.
 
 <img src="./journal files/2025-07-24/with_pluming_work.png" height="600" />
+<img src="./journal files/2025-07-24/t_pluming.JPG" height="600" />
 
 ### Session 2 (2h) installing the irrigation system
 
