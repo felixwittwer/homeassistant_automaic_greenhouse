@@ -271,16 +271,26 @@ Finished the last fer wires for connection to mains power and installed the elec
 
 So yesterday I finished installing the electrical box. Today I started with laying out a new garden hose from our pump to the greenhouse. To integrate it into our existing garden hose system I needed to build a second howse branch from the existing system which can be shut of with a ball valve.
 
-<img src="./journal files/2025-07-24/with_pluming_work.png" height="600" />
-<img src="./journal files/2025-07-24/t_pluming.JPG" height="600" />
+<p float="left">
+  <img src="./journal files/2025-07-24/t_pluming.JPG" height="400" />
+  <img src="./journal files/2025-07-24/with_pluming_work.png" height="400" />
+</p>
 
 ### Session 2 (2h) installing the irrigation system
 
-To water all the plants inside thee greenhause I used some simple PCV plastick tubing. Originally I wanted to print T pieces and nozzels for this tubing but went for just tieing it straight to a bar and making some holes with a screwdriver in it. It is defenitely a much easier solution and th dubing is free of additional plastics so it sould be drinking water quality save.
+To water all the plants inside thee greenhause I used some simple PCV plastick tubing. Originally I wanted to print T pieces and nozzels for this tubing but went for just tieing it straight to a bar and making some holes with a screwdriver in it. It is defenitely a much easier solution and the tubing is free of additional plastics so it sould be drinking water quality save.
+
+<img src="./journal files/2025-07-24/tubing.JPG" height="400" />
 
 ### Session 2 (4h) Wiring a few sensors
 
 For my last task for today I choose to wire up some sensors. After making a mistake in the wiring and redoing alsmost verything I managed to get both ground temperature sensors working. Three soil moisture sensors are already connected but dont seem to work properly. But wiring up the remaining sensors and making the sensors work is a task for tomorrow. Maybe a simple calibration could solve the issue.
+
+<p float="left">
+  <img src="./journal files/2025-07-24/soilsensor_1.JPG" height="200" />
+  <img src="./journal files/2025-07-24/soilsensor_3.JPG" height="200" />
+  <img src="./journal files/2025-07-24/soilsensor_2.JPG" height="200" />
+</p>
 
 ## July 25th (6h 30m)
 
@@ -289,6 +299,8 @@ Status update: Most :) of the installed parts already work perfectliy aka the ir
 ### Session 1 (3h) adding soil moisture sensor and CO2 sensor
 
 I succesfully wirde up the last soild mosuture sensor for zone one. Additionally I precut all wires for the remaining sensors and fixed them into place by using my cool twist in clips for the aluminium extrusions. Surprisingly the CO2 seonsor worked from the beginning without any issues. Due to the housing for the light sensor not beeing printed yet I soldered a JST connector on the ent of the wire and sealed everything with some shrink tubing.
+
+<img src="./journal files/2025-07-25/co2_sensor.jpg" height="400" />
 
 ### Session 2 (3h 30min) troubleshooting
 
