@@ -1,0 +1,63 @@
+alias: Gießen früh
+description: ""
+triggers:
+  - trigger: time
+    at: "09:00:00"
+conditions:
+  - condition: state
+    entity_id: input_boolean.fruhgiessen
+    state: "on"
+actions:
+  - type: turn_on
+    device_id: xxxx
+    entity_id: xxxx
+    domain: switch
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: 30
+      milliseconds: 0
+  - type: turn_off
+    device_id: xxxx
+    entity_id: xxxx
+    domain: switch
+  - type: turn_on
+    device_id: xxxx
+    entity_id: xxxx
+    domain: switch
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: 30
+      milliseconds: 0
+  - type: turn_off
+    device_id: xxxx
+    entity_id: xxxx
+    domain: switch
+  - type: turn_on
+    device_id: xxxx
+    entity_id: xxxx
+    domain: switch
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: 30
+      milliseconds: 0
+  - type: turn_off
+    device_id: xxxx
+    entity_id: xxxx
+    domain: switch
+  - type: turn_on
+    device_id: xxxx
+    entity_id: xxxx
+    domain: switch
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: 45
+      milliseconds: 0
+  - type: turn_off
+    device_id: xxxx
+    entity_id: xxxx
+    domain: switch
+mode: single

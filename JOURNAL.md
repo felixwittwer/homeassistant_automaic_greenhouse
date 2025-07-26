@@ -9,7 +9,7 @@ created_at: "2024-03-25"
 
 Here you can see a documentation of the entire development process.
 
-**Total hours spent: 69h**
+**Total hours spent: 73h**
 
 ## May 25th (30m): initial setup
 
@@ -305,3 +305,25 @@ I succesfully wirde up the last soild mosuture sensor for zone one. Additionally
 ### Session 2 (3h 30min) troubleshooting
 
 Two of the soil moisture sensors are not working so I cut the shinktubing open to se what is wrong to my surprise the wires seemed to be connected correctly even after coninuity testing it. As I later on found out, the sensors need to be a minimum amount of wet or deep inside the soil and mine werent. After remaking the connections and sealing the sensors with the big shrink tubing they worked. In addition to the harwdere fix I also updeted some parts of the software to accomidate the new voltage levels and correct caluclation of the percentages. In the end I got the soil sensors to work. The soiuld temperature sensors work mostly fine but simetimes the think the soil is at 85°C or has no temperature at all which is defenitely not the case. A reeboot of the ESP resolved the problems everytime.
+
+## July 26th (4h) adding light sensor and doing some software stuff
+
+### Session 1 (1h) add BH1750
+
+Took me some time to get the sensor working. Turns out I probably wired up everything correctly the first time and was to imapcient to wait until ESPHome fulli registered the I2C connection to the sensor. After lots of trying I finally got it working and the sensor is now providing really nice and clean measurements.
+
+<img src="./journal files/2025-07-26/installing_bh1750.jpg" height="400" />
+
+(image before I wired everything up nicely :] in case someone asks)
+
+### Session 2 (2h) doing some software configuration stuff
+
+Since the irrigration system is in place now I added a routine for watering the greenhouse for now on a fixed schedule and later in response to the soil moisture data. For now there is a routine for the morning and evening. Both get activated everyday but can be manualld disabled for the day if chossen so. (In case it was raining all day and the soil is still wet)
+
+<img src="./journal files/2025-07-26/watering.png" height="100" />
+
+### Session 3 (1h) configuring the EPS32s WS2812 LED
+
+For fun and as a future status indicator I wanted to interface the builtin WS2812 on the ESP32 S3. After getting the GPIO Pin right it worked straight away. I can succesfully chnage the brightness and hue of the LED. And say so the LED is pretty bight in the night it can light up the entire greenhous section where the electrical box is located.
+
+<img src="./journal files/2025-07-26/buildin_LED.png" height="400" />

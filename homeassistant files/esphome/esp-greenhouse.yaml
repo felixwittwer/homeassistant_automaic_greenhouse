@@ -178,3 +178,17 @@ switch:
     pin: GPIO18
     name: "Relay 4"
 
+# Restart
+button:
+  - platform: restart
+    name: "Gewächshaus Restart"
+
+# Onboard RGB LED
+light:
+  - platform: esp32_rmt_led_strip
+    name: "Onboard RGB LED"
+    id: onboard_led
+    pin: GPIO48
+    num_leds: 1
+    rgb_order: GRB
+    chipset: WS2812
