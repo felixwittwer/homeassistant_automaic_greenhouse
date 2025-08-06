@@ -9,7 +9,7 @@ created_at: "2024-03-25"
 
 Here you can see a documentation of the entire development process.
 
-**Total hours spent: 73h**
+**Total hours spent: 80h**
 
 ## May 25th (30m): initial setup
 
@@ -327,3 +327,24 @@ Since the irrigration system is in place now I added a routine for watering the 
 For fun and as a future status indicator I wanted to interface the builtin WS2812 on the ESP32 S3. After getting the GPIO Pin right it worked straight away. I can succesfully chnage the brightness and hue of the LED. And say so the LED is pretty bight in the night it can light up the entire greenhous section where the electrical box is located.
 
 <img src="./journal files/2025-07-26/buildin_LED.png" height="400" />
+
+## August 5th (5h)
+
+### Session 1 (3h) redesigning and printing window and door sensors
+
+I have noticed that my system with the clips on the 3D prints didn't work that well so I designed a new version of the door and window contacts that uses screws (actually the same ones that are already in the BOM). After I finished designing them and needing to make a second iteration that finally worked I started soldering the cable tree for the sensors.
+
+### Session 2 (2h) debuging and fixing the sensors
+
+Both of the window sensors worked perfectly on the first install but the door sensor wasn't functioning properly. When first installing it sounded like I cracked the glass ampule of the reed switch slightly and as it turnes out this was the case but it took me a while to notice because you couldn't see the crack direcktly only the resistance values were of as I later discovered. Replaced the Reed and it works now.
+
+<p float="left">
+  <img src="./journal files/2025-08-05/window_sensor.jpg" width=49% />
+  <img src="./journal files/2025-08-05/door_sensor.jpg" width=49% />
+</p>
+
+## August 6th (2h) filming the video and getting ready for final submission
+
+After I finished the sensors yesterday I now only needed the video and a post for the final submission. Video was a bit difficult because I needed to hold my camera in one hand while controlling/ demoing the grennhouse with my smartphone on the other. In the end I managed to film everything and recorded a voiceover.
+
+Reddit post can be found here: https://www.reddit.com/r/Esphome/comments/1mje8r1/yet_another_automatic_greenhouse_but_a_bit/

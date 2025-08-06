@@ -22,6 +22,8 @@ For sensing the state of the windows on the greenhouse reed switches and magnets
 
 The desing works totally fine with my SLA printer and Anycubig tough resin. You might need to think about placing your supports and material choices. The tough resin I use is a bit elastik so the clips dont snap of and can be bend temporarily during assembly.
 
+Small note on that: there now actually is a second version that uses M3 screws for the sensor housing.
+
 STL Files are inside this folder.
 
 ## ESPHome config
