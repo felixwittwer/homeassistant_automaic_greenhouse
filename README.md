@@ -11,6 +11,10 @@
 # homeassistant_automaic_greenhouse
 A cool Project to make your greenhouse smart. What about automaic irrigation and collecting enviromental data right from your garden.
 
+<p align="center">
+  <img src="images/cover.JPG" height="600">
+</p>
+
 ## About the project
 This project actually is sthe second iteration on me trying to automate our greenhouse. The first version relied on an Arduino Uno powered by a 24V powertool battery and sensordata was logged to an SD-card. Since we now have power and wifi connectivity to the greenhouse I wanted to step up the game and build something that is way smarter and will hopefully last forever. If you were wondering this is why an industrial grade electrical box with rails was used.
 
