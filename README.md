@@ -88,6 +88,10 @@ All stuff regarding Homeassistant can be found in the **homeassistant files** di
 
 <br>
 
+### Project Video
+
+https://youtu.be/dZTHF3ozego
+
 # BOM
 
 **@Hackclub** please note that some parts are a bit expensive but I already have them so they are listed here just for reference if somebody wontas to build his own Green Assistant. Go [here](./parts/Hackclub_BOM.csv) for a list of parts I seek Hackclub sponsorship for.
